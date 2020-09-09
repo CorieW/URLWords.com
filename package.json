@@ -1,0 +1,16 @@
+{
+  "name": "urlwords.com",
+  "version": "1.0.0",
+  "description": "A URL shortener.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "coding_corie",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^5.1.0",
+    "mysql2": "^2.1.0"
+  }
+}
