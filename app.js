@@ -8,20 +8,6 @@ const mysqlConnection = require("./config/database")
 
 const port = process.env.PORT || 3001
 
-app.get("/api/urls", (req, res) =>
-{
-    let url = req.query.url
-    let whereQuery = ""
-    if (url != undefined) {
-        whereQuery = `WHERE original_url='${url}'`
-    }
-        
-    mysqlConnection.query(`SELECT * FROM urls ${whereQuery}`, (err, rows) =>
-    {
-        res.json(err !== null ? err : rows)
-    })
-})
-
 app.post("/api/urls", (req, res) =>
 {    
     mysqlConnection.query(`SELECT * FROM urls WHERE original_url='${req.query.url}'`, (err, rows) =>

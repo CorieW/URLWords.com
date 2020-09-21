@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios';
 import DocumentTitle from 'react-document-title';
-import NewUrlList from './NewUrlList';
 import './Home.css'
 
 export default function Home()
@@ -68,7 +67,6 @@ export default function Home()
                         </div>
                     </div>
                 </div>
-                <NewUrlList />
             </div>
         </DocumentTitle>
     )
