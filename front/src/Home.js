@@ -41,7 +41,7 @@ export default function Home()
     }
 
     return (
-        <DocumentTitle title="Home | URLWords">
+        <DocumentTitle title="Home - WordyURL">
             <div>
                 <div className="container">
                     <div className="content">

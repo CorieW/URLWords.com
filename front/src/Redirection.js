@@ -33,7 +33,7 @@ export default function Redirection(props)
     
 
     return (
-        <DocumentTitle title="Redirecting | URLWords">
+        <DocumentTitle title="Redirecting - WordyURL">
             <div className="container">
                 <h1 className="page-title">Redirecting...</h1>
                 <p>The page should redirect within a few seconds...</p>
