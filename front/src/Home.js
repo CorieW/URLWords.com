@@ -57,8 +57,8 @@ export default function Home()
                             <h2 className="info-header important-text">{error && "An error has occurred, please try again!"}</h2>
                         </div>
                         <div className="info">
-                            <p>Convert hard to remember URL into something easier to remember.
-                                To create the memorable URL all you need to do is enter the URL into the input and click <strong>'Create Memorable URL'</strong>.
+                            <p>Shorten a hard to remember URL into something easier to remember.
+                                To create a memorable URL all you need to do is enter a URL into the input and then click <strong>'Create Memorable URL'</strong>.
                                 The output URL will redirect you to the original URL whenever visited.</p>
                             <img src="use-example.png" className="use-example" alt="Example use" />
                             <p>Developers can use a POST request to create memorable URLs. For example, by requesting <strong>'/api/urls?url=test.com'</strong>,
