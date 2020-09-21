@@ -1,12 +1,12 @@
 {
   "name": "urlwords.com",
   "version": "1.0.0",
-  "description": "A URL shortener.",
-  "main": "server.js",
+  "description": "Create memorable urls.",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "coding_corie",
+  "author": "corie_watson",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",

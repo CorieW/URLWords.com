@@ -1,0 +1,36 @@
+.new-url-list {
+    height: 100%;
+    width: 100%;
+    box-shadow: var(--main-bg-color) 0 -10px 20px;
+    background-color: var(--main-bg-color);
+}
+
+.update-text {
+    text-align: center;
+}
+
+.new-url-list-header {
+    display: flex;
+    min-height: 50px;
+    padding-left: 15%;
+}
+
+.new-url-list-header span {
+    flex: 1;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .new-url-list-header {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .new-url-list-header span {
+        font-size: 5vw;
+    }
+}

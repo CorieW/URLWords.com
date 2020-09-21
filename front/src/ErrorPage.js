@@ -1,12 +1,12 @@
 import React from 'react'
 import DocumentTitle from 'react-document-title';
-import './Notfound.css'
+import './ErrorPage.css'
 
-export default function Notfound() {
+export default function ErrorPage() {
     return (
-        <DocumentTitle title="Page Not Found | URLWords">
+        <DocumentTitle title="Error | URLWords">
             <div className="container">
-                <h1 className="page-title">Page not found!</h1>
+                <h1 className="page-title">It seems an error occurred somewhere</h1>
                 <h2><a href="/">Return to main page</a></h2>
             </div>
         </DocumentTitle>
